@@ -14,7 +14,6 @@
 | :-------: | :----------------------------------------------- |
 | Version 1 | 轻量级、简洁; `selenium`                         |
 | Version 2 | 比 Version 1 稍微复杂一点; `selenium` & `scrapy` |
-| Version 3 | 封装成了 GUI ，稳定性稍微提高了一些              |
 
 ## 如何使用？
 
@@ -40,10 +39,6 @@
 graph LR
 items.py-->pipeline.py-->register.py-->emperor((simple.py))-->settings.py
 ```
-### Version 3
-
-还在写
-
 <hr>
 
 # Get Online Course Content
@@ -57,11 +52,10 @@ Therefore, I want to find a way to capture all the course contents as soon as po
 
 There are three versions with codes.
 
-|  Version  | Intro                                                        |
-| :-------: | :----------------------------------------------------------- |
-| Version 1 | lightweight and easy; `selenium`                             |
-| Version 2 | slightly harder than Version 1; `selenium` & `scrapy`        |
-| Version 3 | encapsulated into GUI and the overall stability has been slightly improved; |
+|  Version  | Intro                                                 |
+| :-------: | :---------------------------------------------------- |
+| Version 1 | lightweight and easy; `selenium`                      |
+| Version 2 | slightly harder than Version 1; `selenium` & `scrapy` |
 
 ## How to use them? 
 
@@ -87,8 +81,3 @@ There are three versions with codes.
 graph LR
 items.py-->pipeline.py-->register.py-->emperor((simple.py))-->settings.py
 ```
-
-### Version 3
-
-continue
-
